@@ -46,9 +46,4 @@ public class productController {
         return ResponseEntity.ok(productService.getExpiredProduct());
     }
 
-    @RequestMapping(value = "/Hello", method = RequestMethod.GET)
-    public String get(){
-        return "Hello Spring";
-    }
-
 }
